@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bricolage+Grotesque:opsz@10..48&family=Merriweather&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bricolage+Grotesque:opsz@10..48&family=Dancing+Script:wght@700&family=Merriweather&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bricolage+Grotesque:opsz@10..48&family=Dancing+Script:wght@700&family=Gluten:wght@300&family=Merriweather&family=Sedgwick+Ave+Display&display=swap');
+
+.body{
+ background-color:aquamarine;
+}
+.nav-link {
+    color:cadetblue;
+}
+.navbar{
+    height:14%;
+    background-color:burlywood;
+}
+
+.img{
+    
+    position:relative;
+    border-radius:50%;
+    height:245px;
+    width:245px;
+    margin:0 auto;
+    box-shadow: 12px 0 #d9c8f1, 24px 0 #e2d6f3, 36px 0 #ece6f5;
+
+}
+
+.navbar-brand{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    text-align:center;
+}
+.home{
+    height:100%;
+    width:100%;
+}
+.offcanvas{
+    background-color:#e2d6f3;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+.home{
+    text-align:center;
+    position:relative;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+.name{
+    color:coral;
+    font-family: 'Dancing Script', cursive;
+}
+.navbar-nav{
+    text-align:center;
+    color:brown;
+    font-size: 0.75rem;
+    font-family:'Bricolage Grotesque', sans-serif;
+    font-size: x-large;
+        
+    
+}
+.offcanvas-header{
+    text-align:center;
+    color:brown;
+}
+.header .home
+.greeting{
+    letter-spacing: 1px;
+    font-size: 1rem;
+    line-height: 1.2;
+    height:2%;
+    
+}
+.header .home
+.bio{
+    letter-spacing: 1px;
+    color: #5F6F81;
+    font-size: 1rem;
+    min-width: 250px;
+    line-height: 1.4;
+}
+.offcanvas-title{
+    font-family:  'Bricolage Grotesque', sans-serif;
+
+}
+
+.socialLinks{
+    font-size:x-large;
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    margin-left:0 10px;
+}
+
+.lni{
+    margin:0 20px;
+    
+}
+.reach{
+    color:brown;
+    font-family: 'Gluten', cursive;
+    text-align:center;
+    font-size:xx-large;
+    padding-left:3%;
+}
+.aboutHead{
+    text-align:justify;
+    padding-left:7%;
+    font-family: 'Gluten', cursive;
+}
+.about{
+    text-align:center;
+    padding-left:7%;
+    font-family:  'Bricolage Grotesque', sans-serif;
+    padding:80px 0;
+    height:45%;
+    font-size:1.3rem;
+}
+.sectionContainer{
+    border-radius:89px;
+    padding:45px;
+    background-color:#e2d6f3;
+}
+.skillsgrid{
+    list-style:none;
+    padding:10px;
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    box-sizing:border-box;
+}
+.skillImg{
+    border-radius:15px;
+    height:75px;
+    width:75px;
+    background-color:white;
+}
+.itemcontainer .li{
+    text-align: -webkit-match-parent;
+}
+.contactinfo{
+
+    text-align:justify;
+    padding-left:7%;
+    font-family: 'Gluten', cursive;;
+
+}
+.contactTypes .flexContainer .typeBox {
+    -webkit-box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);
+    box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    border: 1px solid #eee;
+    padding: 24px;
+    border-radius: 15px;
+}
+.contactTypes .flexContainer:first-child {
+    padding: 0 15px 0 0;
+}
+.lni-envelope{
+    text-align: center;
+    color:black;
+    background-color:#d9c8f1;
+    
+}
+.newsectionContainer{
+   padding:5%;
+   background-color:#ece6f5;
+   border-radius: 12%;
+    
+}
+a{
+    text-decoration: none;
+    color:cadetblue;
+    font-family:'Bricolage Grotesque', sans-serif ;
+    
+}
+.typeBox{
+    box-sizing: border-box;
+    border-radius:89px;
+    padding:45px;
+    background-color:#e2d6f3;
+    text-align: center;
+    text-decoration: none;
+    font-size: larger;
+}
